@@ -55,6 +55,7 @@ const App = () => {
   const pageInfo = useRef(null);
 
   console.log('user from app', user);
+  console.log('loading the app from App.jsx');
 
   return (
     <userContext.Provider value={{ user, setUser }}> 
